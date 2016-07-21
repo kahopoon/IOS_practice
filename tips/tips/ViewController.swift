@@ -29,19 +29,24 @@ class ViewController: UIViewController {
 
     @IBAction func onEditingChanged(_ sender: AnyObject) {
         
-    
+
 
         var tipPercentages:[Double] = [0.18, 0.20, 0.25]
-//        let doubleTipControl = Double(tipControl.selectedSegmentIndex)
         let tipPercentage = tipPercentages[tipControl.selectedSegmentIndex]
+
+        
+        var billFieldDouble = Double(billField.text!)
+        
+        if billFieldDouble != nil {
+            tipLabel.text = "\(billFieldDouble! * tipPercentage)"
+        }
+        else{
+            billFieldDouble = Double(0.00)
+        }
         
         
-        let billFieldDouble = Double(billField.text!)
-        let billAmount = billFieldDouble
-        
-        
-        let tip = billAmount! * tipPercentage
-        let total = billAmount! + tip
+        let tip = billFieldDouble! * tipPercentage
+        let total = billFieldDouble! + tip
         
         tipLabel.text = "$\(tip)"
         totalLabel.text = "$\(total)"

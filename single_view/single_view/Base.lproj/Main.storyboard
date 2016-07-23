@@ -51,7 +51,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NYC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XaH-a0-FnU">
-                                <frame key="frameInset" minX="25" minY="587" width="100" height="50"/>
+                                <frame key="frameInset" minX="25" minY="578" width="100" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="44"/>
                                 <color key="textColor" red="0.64451121794871802" green="0.45322138152460689" blue="0.35460578176964486" alpha="0.84854525862068964" colorSpace="calibratedRGB"/>
@@ -72,8 +72,8 @@
                                 <color key="textColor" red="0.24050480769230764" green="0.1758339435115327" blue="0.13892378601926711" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2015 DECEMBER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAc-EJ-gCK">
-                                <frame key="frameInset" minX="23" minY="624" width="100" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2015  DECEMBER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fAc-EJ-gCK">
+                                <frame key="frameInset" minX="24" minY="616" width="100" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="9"/>
                                 <color key="textColor" red="0.24403044871794877" green="0.17160262540351717" blue="0.13426392843655791" alpha="0.72448814655172411" colorSpace="calibratedRGB"/>

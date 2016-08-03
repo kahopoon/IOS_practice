@@ -40,6 +40,22 @@ mrTrinagle
 
 // 4_定義function，接受3個參數，起始值，最大值和決定數字倍數的number， 回傳運算結果  比方起始值3，最大值98，決定數字倍數的number為5時，(只包含5的倍數)  運算結果為 5 + 10 + 15 + ..... + 95
 
+func ThreeNumbers(min:Int, max:Int, times:Int) ->Int {
+    var sum = 0
+    if min < max {
+        for i in min...max {
+            if i % times == 0 {
+                sum += i
+            }
+        }
+    }
+    return sum
+}
+
+ThreeNumbers(min: 3, max: 98, times: 5)
+
+
+
 
 // 5_定義function，接受3個參數，起始值，最大值和決定數字倍數的number， 回傳運算結果  比方起始值3，最大值11，決定數字倍數的number為5時，(不包含5的倍數)  運算結果為 3 + 4 + 6 + 7 + 8 + 9 + 11
 

@@ -84,10 +84,20 @@ func oddRowSum(row:Int, col:Int) -> Int {
     return sum
 }
 
-oddRowSum(row: 3, col: 2)
+oddRowSum(row: 7, col: 7)
 
 // 7_所有格子的總合，除了列數>=行數的格子, 定義function，接受2個參數，分別代表行數和列數
 
+func totalSum(row:Int, col:Int) -> Int {
+    var sum = 0
+    for i in 0...row {
+        for j in 0...col where i-1 >= j {
+            sum += i*j
+        }
+    }
+    return sum
+}
+totalSum(row: 7, col: 7)
 
 
 // 8_定義一個function，接受一個參數代表華式溫度 ， 回到攝式溫度

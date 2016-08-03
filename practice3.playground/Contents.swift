@@ -102,6 +102,14 @@ totalSum(row: 7, col: 7)
 
 // 8_定義一個function，接受一個參數代表華式溫度 ， 回到攝式溫度
 
+func fToC(f:Double) -> Double {
+    var cc = 0.0
+    cc = (f - 32) * ( 5 / 9)
+    
+    return cc
+}
+
+fToC(f: 212.3)
 
 
 // 9_定義 a function that takes an array of integers and sorts them into arrays for even and odd integers use tuple to return even array & odd array

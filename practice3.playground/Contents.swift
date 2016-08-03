@@ -72,10 +72,19 @@ func QFive(min:Int, max:Int, special:Int) ->Int {
 QFive(min: 3, max: 11, special: 5)
 
 
-
 // 6_奇數行的數字總合, 定義function，接受2個參數，分別代表行數和列數
 
+func oddRowSum(row:Int, col:Int) -> Int {
+    var sum = 0
+    for i in 0...row where i % 2 != 0 {
+        for j in 0...col {
+            sum += i*j
+        }
+    }
+    return sum
+}
 
+oddRowSum(row: 3, col: 2)
 
 // 7_所有格子的總合，除了列數>=行數的格子, 定義function，接受2個參數，分別代表行數和列數
 
